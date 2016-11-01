@@ -12,7 +12,7 @@ Mobile (480x)
     *** Keywords ***
 
     Suite Setup
-        Open Browser  ${BASE_URL}
+        Open Browser  ${BASE_URL}   browser=${BROWSER}
         Set window size  480  900
 
     *** Test Cases ***

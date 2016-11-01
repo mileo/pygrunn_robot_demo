@@ -12,7 +12,7 @@ Tablet (768x)
     *** Keywords ***
 
     Suite Setup
-        Open Browser  ${BASE_URL}
+        Open Browser  ${BASE_URL}   browser=${BROWSER}
         Set window size  768  900
 
     *** Test Cases ***

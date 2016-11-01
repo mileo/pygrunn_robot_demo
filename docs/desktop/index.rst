@@ -12,7 +12,7 @@ Desktop (1200x)
     *** Keywords ***
 
     Suite Setup
-        Open Browser  ${BASE_URL}
+        Open Browser  ${BASE_URL}   browser=${BROWSER}
         Set window size  1200  900
 
     *** Test Cases ***

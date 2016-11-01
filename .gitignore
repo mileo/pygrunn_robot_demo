@@ -1,0 +1,13 @@
+.idea/
+.installed.cfg
+bin/
+build/
+develop-eggs/
+docs/desktop/_screenshots/
+eggs/
+geckodriver.log
+include/
+lib/
+Would skip repository local/
+parts/
+pip-selfcheck.json
